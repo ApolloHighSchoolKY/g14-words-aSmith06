@@ -23,6 +23,12 @@ public class Lab16c
 
 
 		//more test cases
-
+		test.setWords("green blue eggs ham cheese red");
+		System.out.println(test);
+		System.out.println("Words with 3 Vowels " + test.countWordsWithXVowels(3));
+		System.out.println("Words with 4 letters " + test.countWordsWithXChars(4));
+		vowelsRemoved = test.removeWordsWithXChars(3);
+		System.out.println(test);
+		System.out.println("Number of vowels removed " + vowelsRemoved);
 	}
 }
